@@ -32,7 +32,7 @@ header {
   box-shadow: 0 -2px 3px 1px wheat;
 }
 .input-left {
-  margin-left: 5%;
+  margin-left: 2%;
   display: grid;
   grid-auto-flow: column;
   gap: 10px;
@@ -103,7 +103,7 @@ label[for="search"] svg {
 }
 
 .nav-left {
-  margin-left: 5%;
+  margin-left: 2%;
   display: flex;
   gap: 15px;
   align-items: center;
