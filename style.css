@@ -111,9 +111,47 @@ label[for="search"] svg {
 sidebar {
   grid-area: sidebar;
   background-color: #3a86ff;
+  padding: 10px 6px;
+  color: white;
+  font-weight: 550;
 }
 
-main {
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.logo .dash {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.logo svg {
+  width: 36px;
+  color: white;
+}
+
+.link {
+  margin-bottom: 60px;
+}
+
+.link > div,
+.settings div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.link svg,
+.settings svg {
+  width: 24px;
+}
+
+.settings main {
   grid-area: main;
   background-color: #e2e8f0;
 }
