@@ -107,7 +107,7 @@ label[for="search"] svg {
   gap: 15px;
   align-items: center;
 }
-sidebar {
+.sidebar {
   grid-area: sidebar;
   background-color: #3a86ff;
   padding: 10px 6px;
